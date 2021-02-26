@@ -1,0 +1,27 @@
+.Dona__thead{
+    color:rgb(255, 255, 255);
+    background:#5d9e44;
+  }
+.Dona__tbody, .Dona__tfoot{
+ background-color: #e1e1e1;
+ 
+ 
+}
+
+.tabla-Dona{
+  line-height: 40px;
+  position: relative;
+  top: 50px;
+  left: 30%;
+}
+.row__element{
+  padding:0 30px;
+  
+}
+.row__element--money{
+    text-align: center;
+}
+.tabla-Dona__caption{
+    line-height: 25px;
+
+}

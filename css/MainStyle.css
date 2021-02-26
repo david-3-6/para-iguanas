@@ -1,0 +1,262 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(216, 235, 209);
+}
+/* INICIO IMAGEN IGUANA */
+.entrance{
+    position: relative;
+    background: url(../img/iguana-7.jpg);
+    height: 55vh;
+    
+}
+.entrance__title{
+    position: absolute;
+    top: 15%;
+    /* left: 42.5%; */
+    left: 37vw;
+    font-size: 30px;
+    width: 25%;
+    text-align: center;
+}
+.title__main{
+    
+    margin-bottom: 0;
+    color: rgb(206, 255, 213);
+}
+.title__subtitle{
+    font-size: 15px;
+    text-align: center;
+    color: rgba(206, 255, 213, 0.678);
+    margin-bottom: 30px;
+}
+.title__box{
+    text-align: center;
+}
+.entrance__button{
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    /* box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.151); */
+}
+
+
+/* FIN IMAGEN DE IGUANA, COMIENZO DE DONA INFO Y CONTACT */
+
+.item-1__svg{
+    width: 50px;
+    height: 50px;
+    fill: rgb(113, 204, 113);
+}
+.item-2__svg{
+    width: 50px;
+    height: 50px;
+    fill: rgb(113, 204, 113);
+}
+.item-3__svg{
+    width: 50px;
+    height: 50px;
+    fill: rgb(113, 204, 113);
+}
+.sub-entrance{
+    text-align: center;
+    background: white;
+}
+.sub-entrance__content{
+    display: inline-block;
+    text-align: center;
+    margin: 100px;
+}
+.content__item-1, .content__item-2, .content__item-3{
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+}
+.content__item-1, .content__item-2{
+    margin-right: 150px;
+}
+
+/* FIN DE DONA INFO Y CONTACT */
+
+/* INICIO CONTENIDO DE LA PAGINA */
+    /* INFO 1 Y 2 GENERAL Y UNICO 1 */
+    .box1{
+        position: relative;
+        left: 30px;
+        top: 25px;
+        width: 650px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.116);
+    }
+    .box1_box-1, .box2_box-2, .box3_box-3, .box4_box-4{
+        padding: 5px 60px 30px 40px;
+    }
+    .box1__photo, .box2__photo, .box3__photo, .box4__photo{
+      display:inline-block;
+      background: hsl(138, 62%, 43%);
+      border-bottom-left-radius: 10px;
+      
+    }
+    .photo__img, .photo__img2, .photo__img3, .photo__img4{
+        width: 250px;
+        display:inline-block;
+        border: 20px solid rgb(42, 178, 82);
+        border-bottom-left-radius: 10px;
+        height: 195px;
+        
+    }
+    .box1_info, .box2_info, .box3_info, .box4_info{
+      text-align: justify;
+      width:400px;
+      float:right;
+      padding: 0 20px;
+      padding-top:35px;
+      line-height:25px;
+      background: rgb(129, 194, 86);
+      height: 199px;
+      margin:0;
+      color:white;
+      font-weight: 0;
+      border-bottom-right-radius: 10px;
+    }
+    /* FIN INFO 1 Y 2 */
+    
+    /* BOX2 SOLO */
+    .box2{
+        position: relative;
+        top: 65px;
+        right: -64%;
+        width: 650px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: -7px 7px 10px 1px rgba(0, 0, 0, 0.116);
+    }
+    /* FIN BOX2 SOLO */
+    /* BOX3 SOLO */
+    .box3{
+        position: relative;
+        left: 30px;
+        top: 105px; 
+        width: 650px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.116);
+    }
+    /* BOX3 FIN */
+    /* INICIO BOX4 SOLO */
+    .box4{
+        position: relative;
+        top: 145px;
+        right: -64%;
+        width: 650px;
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: -7px 7px 10px 1px rgba(0, 0, 0, 0.116);  
+    }
+    /* FIN BOX4 SOLO */
+    /* ADOPCION Y MAS INFO*/
+.box{
+    position: relative;
+    top: 185px;
+    right: -32%;
+    width: 650px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px 1px rgba(0, 0, 0, 0.116);
+    background: white;
+}
+.box_box-1{
+    padding: 5px 60px 30px 40px;
+}
+/* .box_box-2{
+    background: hsl(179, 62%, 43%);
+    border-radius: 10px;
+    height: 270px;
+
+} */
+.box-1_mainTitle, .box-2_mainTitle, .box-3_mainTitle, .box-4_mainTitle{
+    color: hsl(138, 62%, 43%);
+    font-weight: 700;
+
+}
+.box-1_subTitle, .box-2_subTitle, .box-3_subTitle, .box-4_subTitle{
+    color: hsl(66, 100%, 18%);
+}
+.box-1_info{
+    font-weight: 400px;
+    color: hsl(218, 22%, 67%);
+}
+.box-2-1_mainTitle{
+    color: white;
+    margin-top: 18.7px;
+    font-weight: 400;
+    
+}
+
+.box-2-1_price{
+   
+    width: inherit;
+    color: rgba(255, 255, 255, 0.603);
+}
+.box-2_info{
+    color: white;
+    margin-bottom: 35px;
+}
+.box-2_button{
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.151);
+}
+.box-2_box-2-1{
+    display: inline-block;
+    width: 325px;
+    height: 270px;
+    background-color: hsl(138, 62%, 43%);
+    border-bottom-left-radius: 10px ;
+    padding: 20px 40px 20px 40px;
+}
+.box-2_box-2-2{
+    background: hsl(96, 47%, 55%);
+    width: 325px;
+    height: 270px;
+    float: right;
+    padding: 20px 80px 20px 40px;
+    color: white;
+    border-bottom-right-radius:10px ;
+}
+.box-2-2_why{
+    margin: 0;
+    margin-top: 18.7px;
+    font-weight: 400;
+}
+.box-2-2_info{
+    line-height: 25px;
+}
+.price_num{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    vertical-align: middle;
+    margin-right: 7px ;
+}
+    /* FIN ADOPCION */
