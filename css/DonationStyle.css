@@ -1,3 +1,11 @@
+/* TABLA DE DONACIONES */
+.tabla-Dona{
+  line-height: 40px; 
+  margin: 0 auto;
+  margin-top: 60px;
+  border-collapse: collapse;
+  width: 900px;
+}
 .Dona__thead{
     color:rgb(255, 255, 255);
     background:#5d9e44;
@@ -8,11 +16,8 @@
  
 }
 
-.tabla-Dona{
-  line-height: 40px;
-  position: relative;
-  top: 50px;
-  left: 30%;
+.tabla-Dona, .Dona-item{
+  border: #c0dbb5 solid 2px;
 }
 .row__element{
   padding:0 30px;
@@ -24,4 +29,27 @@
 .tabla-Dona__caption{
     line-height: 25px;
 
+}
+/* FIN TABLA DE DONACIONES */
+/* BOTON DONAR */
+  .paypal__button{
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    color: white;
+    background-color: hsl(71, 86%, 40%);
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+  }
+/* FIN BOTON DONAR */
+
+.list__element{
+  line-height: 50px;
+}
+.how-to{
+  margin-left: 50px;
 }

@@ -1,0 +1,42 @@
+.footer{
+    background: lightgreen;
+    height: 150px;
+    margin-top: 80px;
+    /* position: relative;
+    top: 220px; */
+  }
+  .footer_copy{
+    text-align: center;
+    margin:0;
+    font-size: 13px;
+    margin-top: 5px;
+  }
+  .authors{
+    height:115px;
+    margin-left: 15px;
+    display: inline-block;
+  }
+  .authors div{
+    margin-bottom: 2px;
+    font-size: 12px;
+      
+  }
+  .authors__title{
+    position: relative;
+    top: 10px;
+    margin-top: 5px;
+  }
+  
+  .footer__rrss{
+    position: absolute;
+    right: 2vw;
+    top: 820px;
+    
+  }
+  .rrss__ig, .rrss__gh:visited{
+    color: black;
+  }
+  
+  .fa-github{
+    margin-left: 10px;
+  }
