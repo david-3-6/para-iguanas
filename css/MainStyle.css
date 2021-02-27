@@ -135,9 +135,10 @@ body{
     .box2{
         position: relative;
         top: 65px;
-        right: -64%;
+        /* right: -64%; */
+        right: -54vw;
         width: 650px;
-        height: auto;
+        
         background-color: white;
         border-radius: 10px;
         box-shadow: -7px 7px 10px 1px rgba(0, 0, 0, 0.116);
@@ -159,7 +160,8 @@ body{
     .box4{
         position: relative;
         top: 145px;
-        right: -64%;
+        /* right: -64%; */
+        right: -54vw;
         width: 650px;
         height: auto;
         background-color: white;
