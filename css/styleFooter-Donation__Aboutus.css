@@ -2,8 +2,7 @@
     background: lightgreen;
     height: 150px;
     margin-top: 80px;
-    /* position: relative;
-    top: 220px; */
+    position: relative;
   }
   .footer_copy{
     text-align: center;
@@ -30,7 +29,7 @@
   .footer__rrss{
     position: absolute;
     right: 2vw;
-    top: 820px;
+    bottom: 78%;
     
   }
   .rrss__ig, .rrss__gh:visited{

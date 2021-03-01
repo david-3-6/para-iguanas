@@ -1,3 +1,7 @@
+.info{
+    position: relative;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -50,7 +54,10 @@ body{
 
 
 /* FIN IMAGEN DE IGUANA, COMIENZO DE DONA INFO Y CONTACT */
-
+.item-1__link--dona{
+    text-decoration: none;
+    color: #000;
+}
 .item-1__svg{
     width: 50px;
     height: 50px;
@@ -133,12 +140,10 @@ body{
     
     /* BOX2 SOLO */
     .box2{
-        position: relative;
-        top: 65px;
-        /* right: -64%; */
-        right: -54vw;
+        position: absolute;
+        top: 35%;
+        right: 2%;
         width: 650px;
-        
         background-color: white;
         border-radius: 10px;
         box-shadow: -7px 7px 10px 1px rgba(0, 0, 0, 0.116);
@@ -148,7 +153,7 @@ body{
     .box3{
         position: relative;
         left: 30px;
-        top: 105px; 
+        top: 450px; 
         width: 650px;
         height: auto;
         background-color: white;
@@ -158,13 +163,11 @@ body{
     /* BOX3 FIN */
     /* INICIO BOX4 SOLO */
     .box4{
-        position: relative;
-        top: 145px;
-        /* right: -64%; */
-        right: -54vw;
+        position: absolute;
+        top: 100.3%;
+        right: 2%;
         width: 650px;
-        height: auto;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
         border-radius: 10px;
         box-shadow: -7px 7px 10px 1px rgba(0, 0, 0, 0.116);  
     }
@@ -172,8 +175,8 @@ body{
     /* ADOPCION Y MAS INFO*/
 .box{
     position: relative;
-    top: 185px;
-    right: -32%;
+    top: 873px;
+    margin: 0 auto;
     width: 650px;
     margin-bottom: 25px;
     border-radius: 10px;
